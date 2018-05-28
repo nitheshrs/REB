@@ -22,3 +22,7 @@ Steps to make REB up:
    d. $SET FLASK_APP=index.py
    e. $flask run
 4. Open the required html files (MyProperties, ByProperties html file to perform the sales transaction - Please refer attached ppt for workflow)
+
+Source code:
+------------
+Please find the zip file 'RealEstateBlockchainSolution.zip'
