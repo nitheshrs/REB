@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/indexStyle.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="jquery.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="images/ey_logo.png" class="bc-ey-logo" /></a> <span class="hc-web-name">Real Estate Blockchain</span>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">Buy</a></li>
+        
+        <li><a href="#">Sell</a></li>
+        <li><a href="#">Approve Sales</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Administration <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="PartyRegistration.html">Party Registration</a></li>
+              <li><a href="#">User Registration</a></li>
+              <li><a href="Role.html">Role Management</a></li>
+              <li><a href="#">Access Management</a></li>
+            </ul>
+          </li>
+      </ul>
+      <!-- <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul> -->
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+        <h2>Party Registration</h2>
+        <form class="form-horizontal">
+          <div class="form-group">
+                <label class="control-label col-sm-2" for="UserId">User ID:</label>
+                <div class="col-sm-7">  
+                     <input type="textbox" class="form-control" id="UserId" placeholder="Enter User ID">
+                </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="FirstName">First Name:</label>
+            <div class="col-sm-7">
+              <input type="textbox" class="form-control" id="FirstName" placeholder="First Name">
+            </div>
+          </div>
+        
+          <div class="form-group">
+                <label class="control-label col-sm-2" for="LastName">Last Name:</label>
+                <div class="col-sm-7">
+                  <input type="textbox" class="form-control" id="LastName" placeholder="Enter Last Name">
+                </div>
+          </div>
+          <div class="form-group">
+                <label class="control-label col-sm-2" for="Password">Password:</label>
+                <div class="col-sm-7">
+                  <input type="Password" class="form-control" id="Password" placeholder="Enter Password">
+                </div>
+          </div>   
+          <div class="form-group">
+                <label class="control-label col-sm-2" for="EmailId">Email ID:</label>
+                <div class="col-sm-7">
+                  <input type="email" class="form-control" id="EmailId" placeholder="Enter Email ID">
+                </div>
+          </div> 
+          <div class="form-group">
+                <label class="control-label col-sm-2" for="BlockChainAddress">Block Chain Address:</label>
+                <div class="col-sm-7">
+                  <input type="textbox" class="form-control" id="BlockChainAddress" placeholder="Enter Block Chain Address">
+                </div>
+          </div> 
+          <div class="form-group">
+                <label class="control-label col-sm-2" for="Role">Role:</label>
+                <div class="col-sm-7">
+                  <input type="textbox" class="form-control" id="Role" placeholder="Enter Role">
+                </div>
+          </div> 
+          <div class="form-group">  
+            <div class="col-sm-offset-2 col-sm-10">      
+                <button type="reset" class="btn btn-secondary hc-btn-grey">Cancel</button>
+                <button type="submit" class="btn btn-secondary hc-btn-grey" id="UserRegBtn">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+
+</body>
+</html>
